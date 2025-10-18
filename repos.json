@@ -13,9 +13,9 @@
         "name": "gas"
       },
       {
-        "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
-        "branch": "11",
-        "name": "clang"
+        "repo": "https://github.com/adithya2306/prebuilts_gcc_linux-x86_aarch64_aarch64-linaro-7/",
+        "branch": "master",
+        "name": "gcc"
       }
     ],
     "params": {
@@ -25,7 +25,7 @@
       "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-",
       "CLANG_TRIPLE": "aarch64-linux-gnu-",
       "AR": "",
-      "CC": "clang"
+      "CC": "gcc"
     }
   }
 ]
